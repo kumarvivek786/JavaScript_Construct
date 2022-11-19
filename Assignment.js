@@ -5,38 +5,30 @@ var readlineSync=require('readline-sync');
     
     switch(number)
     {
-        case "0":
-           console.log('zero')
-        break;
+       
         case "1":
-           console.log('one')
+           console.log('MONDAY')
             
         break;
         case "2":
-            console.log('TWO')
+            console.log('TUESDSY')
         break;
         case "3":
-            console.log('Three')
+            console.log('WEDNESDAY')
         break
         case '4':
-          console.log('Four')
+          console.log('THURSDAY')
         break;
         case '5':
-          console.log("Five")
+          console.log("FRIDAY")
         break;
         case '6':
-            console.log("six")
+            console.log("SATURDAY")
         break;
         case '7':
-            console.log("seven")
+            console.log("SUNDAY")
         break;
-        case '8':
-            console.log("Eight")
-        break;
-        case '9':
-            console.log("nine")
-        break;
-    
+        
         default:
             console.log('Enter correct number');
         break;
