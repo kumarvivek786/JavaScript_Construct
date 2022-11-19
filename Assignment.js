@@ -1,37 +1,43 @@
-//UC-1 Read a single digit number and write the number in word using case
+//UC-3 Read a single digit Number and Write Unit
 
 var readlineSync=require('readline-sync');
-    var number=readlineSync.question('Enter the number: ');
-    
-    switch(number)
-    {
-       
-        case "1":
-           console.log('MONDAY')
-            
-        break;
-        case "2":
-            console.log('TUESDSY')
-        break;
-        case "3":
-            console.log('WEDNESDAY')
-        break
-        case '4':
-          console.log('THURSDAY')
-        break;
-        case '5':
-          console.log("FRIDAY")
-        break;
-        case '6':
-            console.log("SATURDAY")
-        break;
-        case '7':
-            console.log("SUNDAY")
-        break;
+var number=readlineSync.question('Enter the number: ');
+
+switch(number)
+{
+    case "0":
+       console.log('zero')
+    break;
+    case "1":
+       console.log('unit')
         
-        default:
-            console.log('Enter correct number');
-        break;
-        
+    break;
+    case "10":
+        console.log('Ten')
+    break;
+    case "100":
+        console.log('Hundread')
+    break
+    case '1000':
+      console.log('Thousand')
+    break;
+    case '10000':
+      console.log("Ten Thousand")
+    break;
+    case '100000':
+        console.log("Lakhs")
+    break;
+    case '1000000':
+        console.log("Ten Lakhs")
+    break;
+    case '10000000':
+        console.log("Crores")
+    break;
+
+    default:
+        console.log('Enter the Number correct');
+    break;
     
-    }
+
+}
+
